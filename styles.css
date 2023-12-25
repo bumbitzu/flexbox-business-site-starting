@@ -146,6 +146,29 @@ body{
 #contact-links a:hover{
   color: wheat;
 }
+footer{
+  padding:64px 0;
+
+  text-align: center;
+  
+
+}
+.footer-content{
+  padding: 32px,0;
+  font-size: 24px;
+  display: block;
+}
+.footer-content a{
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.6;
+}
+.footer-content a:hover{
+  opacity: 1;
+}
+.footer-content i{
+  padding: 15px;
+}
 @media screen and (max-width: 550px) {
   .header{
     flex-direction: column;
